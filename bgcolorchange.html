@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav style="margin-left:auto">
+        <button onclick="gfg_Run1()">🔴</button>
+        <button onclick="gfg_Run2()">🟢</button>
+        <button onclick="gfg_Run3()">🟡</button>
+        <button onclick="gfg_Run4()">🔵</button>
+        <button onclick="gfg_Run5()">⚪</button>
+    </nav>
+    <script>	
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+        
+        function gfg_Run1() {
+            changeColor('#FF6306');
+        }
+        function gfg_Run2() {
+            changeColor('limegreen');
+        }
+        function gfg_Run3() {
+            changeColor('yellow');
+        }
+        function gfg_Run4() {
+            changeColor('#4CD9FF');
+        }
+        function gfg_Run5() {
+            changeColor('#FFFFFF');
+        }
+    </script>
+</body>
+</html>
